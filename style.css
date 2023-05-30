@@ -1,0 +1,62 @@
+body {
+    font-family: 'Archivo', sans-serif;
+    font-size:120%;
+}
+h1,h2,h3 {
+    font-family: 'Archivo Black', sans-serif;
+}
+section {
+    width:90%;
+    max-width: 40em;
+}
+figure {
+    width:100%;
+}
+figure img {
+    width:100%;
+}
+/* style nav */
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#Intro">Intro</a></li>
+  <li><a href="#GameModes">GameModes</a></li>
+  <li><a href="#Events">Events</a></li>
+</ul>
+
+</body>
+</html>
