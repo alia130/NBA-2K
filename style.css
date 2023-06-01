@@ -5,17 +5,28 @@ body {
 h1,h2,h3 {
     font-family: 'Archivo Black', sans-serif;
 }
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 header {
   margin-top:3em;
+}
+#intro,
+#modes,
+#events {
+  padding-top:2em;
 }
 section {
     width:70%;
     max-width: 40em;
 }
 figure.right {
-    width:30%;
+    width: 30%;
+    min-width:20em;
     max-width: 40em;
-    float:right;
+    float: right;
+    clear: right;
 }
 figure img {
     width:100%;
@@ -23,9 +34,12 @@ figure img {
 /* style nav */
 nav {
   position: fixed;
-  top:0;
+  top: 0;
+  left: 0;
   background-color: #333;
-  width:100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 nav ul {
   list-style-type: none;
